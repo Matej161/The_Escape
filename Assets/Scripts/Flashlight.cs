@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.Timeline;
 using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
-    private float rotationY = 0;
+    /*private float rotationY = 0;
     public float lookSpeed = 2f;
-    public float lookYLimit = 45f;
+    public float lookYLimit;
     public Camera playerCamera;
     Light myLight;
 
     private void Start()
     {
        myLight = GetComponent<Light>();
-        myLight.enabled = false;
+       myLight.enabled = false;
     }
 
     void Update()
@@ -26,5 +28,5 @@ public class Flashlight : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)) {
             myLight.enabled = !myLight.enabled;
         }
-    }
+    }*/
 }
