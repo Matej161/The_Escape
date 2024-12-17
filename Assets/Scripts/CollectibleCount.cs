@@ -27,4 +27,13 @@ public class CollectibleCount : MonoBehaviour
     {
         text.text = $"{count} / {Collectibles.total}";
     }
+
+    private void Update()
+    {
+        if (count == Collectibles.total) {
+            text.text = "WIN WIN WIN WIN WIN WIN WIN";
+        } else if (count == 0) { 
+            text.text = "Collect all presents ";
+        }
+    }
 }
